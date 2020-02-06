@@ -1,0 +1,97 @@
+body {
+  background-color: #504355;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(13, 10, 54);
+  text-decoration: none;
+}
+
+.button{
+  color: rgba(219, 160, 160, 0.5);
+  font-weight: 900;
+  background: white;
+  padding: 10px;
+  border: rgba(13, 10, 54, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button:hover{
+  color: rgba(219, 160, 160, 0.5);
+  background: rgb(13, 10, 54);
+  padding: 15px;
+  border: rgba(13, 10, 54, 0.2);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  background-image: url("images/background.JPG");
+  background-size: cover;
+  height: 100%;
+
+}
+
+.img-circle {
+  width: 300px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+@media (max-width: 540px) {
+  .container {
+  width: 500px;
+  margin: 0 auto;
+}
+}
+
+.card {
+  background: rgba(219, 160, 160, 0.5);
+  padding: 20px;
+  border: rgba(219, 160, 160, 0.2);
+  margin: 20px;
+  border-radius: 10px;
+}
+.first-card {
+  padding: 20px;
+  margin: 20px;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
